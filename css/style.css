@@ -70,6 +70,10 @@ header{
     outline: none;;
 }
 
+#word-input::placeholder {
+    color: lightblue;
+  }
+
 #submit-btn {
     border: none;
     width: 50px;
