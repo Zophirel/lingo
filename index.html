@@ -3,6 +3,7 @@
         <title>Lingo</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/style.css">
+        
         <link
             rel="stylesheet"
             href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -11,10 +12,8 @@
     <body>
         <header>
             <h1 id="logo">Lingo</h1>
-       
         </header>
         <main>
-
             <div id="input-ctn">
                 <input type="text" id="word-input" placeholder="Indovina la parola">
                 <div id="submit-btn">
@@ -23,11 +22,16 @@
             </div> 
             <div id="lingo-table">
             </div>
-
             <div id="timer">
-                
+                <div class="start-timer"></div>
+            </div>
+            <div class="end-game">
+                <button id="play-again" class="start-game-btn">Gioca Ancora!</button>
+                <button id="change-settings" class="start-game-btn">Cambia Impostazioni</button>
             </div>
         </main>
         <script src="js/script.js"></script>
+        <script src="js/settings.js"></script>   
+        <script src="js/demo.js"></script>
     </body>
 </html>
