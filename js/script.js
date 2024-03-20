@@ -347,6 +347,11 @@ const GameModule = (async () => {
     //button listener
     let submitBtn = document.getElementById("submit-btn");
     submitBtn.addEventListener("click", () => setAnswer(document.getElementById("word-input").value.toLowerCase()));
+    document.getElementById("word-input").addEventListener("keyup", ({key}) => {
+        if (key === "Enter") {
+            setAnswer(document.getElementById("word-input").value.toLowerCase());
+        }
+    });
 
     function reset(){
         gameState = GameState.Running;
