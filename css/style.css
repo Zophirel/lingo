@@ -89,6 +89,10 @@ header{
     background-color:#7ccd00;
 }
 
+.not-valid {
+    background-color:brown;
+}
+
 .not-present {
     background-color: #4169e1;
 }
